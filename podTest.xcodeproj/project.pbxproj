@@ -15,7 +15,7 @@
 		64060DCC20AD75B700085729 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64060DCB20AD75B700085729 /* main.m */; };
 		64060DD620AD75B700085729 /* podTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64060DD520AD75B700085729 /* podTestTests.m */; };
 		64060DE120AD75B700085729 /* podTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64060DE020AD75B700085729 /* podTestUITests.m */; };
-		64060DF020AD75E800085729 /* UseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64060DEF20AD75E800085729 /* UseView.m */; };
+		644CECEE20AE71DC004ED50F /* UseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 644CECED20AE71DC004ED50F /* UseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		64060DDC20AD75B700085729 /* podTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64060DE020AD75B700085729 /* podTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podTestUITests.m; sourceTree = "<group>"; };
 		64060DE220AD75B700085729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64060DEE20AD75E800085729 /* UseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UseView.h; sourceTree = "<group>"; };
-		64060DEF20AD75E800085729 /* UseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UseView.m; sourceTree = "<group>"; };
+		644CECEC20AE71DC004ED50F /* UseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseView.h; sourceTree = "<group>"; };
+		644CECED20AE71DC004ED50F /* UseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +104,11 @@
 		64060DBB20AD75B700085729 /* podTest */ = {
 			isa = PBXGroup;
 			children = (
+				644CECEB20AE71DC004ED50F /* classes */,
 				64060DBC20AD75B700085729 /* AppDelegate.h */,
 				64060DBD20AD75B700085729 /* AppDelegate.m */,
 				64060DBF20AD75B700085729 /* ViewController.h */,
 				64060DC020AD75B700085729 /* ViewController.m */,
-				64060DEE20AD75E800085729 /* UseView.h */,
-				64060DEF20AD75E800085729 /* UseView.m */,
 				64060DC220AD75B700085729 /* Main.storyboard */,
 				64060DC520AD75B700085729 /* Assets.xcassets */,
 				64060DC720AD75B700085729 /* LaunchScreen.storyboard */,
@@ -135,6 +134,15 @@
 				64060DE220AD75B700085729 /* Info.plist */,
 			);
 			path = podTestUITests;
+			sourceTree = "<group>";
+		};
+		644CECEB20AE71DC004ED50F /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				644CECEC20AE71DC004ED50F /* UseView.h */,
+				644CECED20AE71DC004ED50F /* UseView.m */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64060DF020AD75E800085729 /* UseView.m in Sources */,
+				644CECEE20AE71DC004ED50F /* UseView.m in Sources */,
 				64060DC120AD75B700085729 /* ViewController.m in Sources */,
 				64060DCC20AD75B700085729 /* main.m in Sources */,
 				64060DBE20AD75B700085729 /* AppDelegate.m in Sources */,
