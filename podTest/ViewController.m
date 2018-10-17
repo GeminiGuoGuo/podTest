@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UseView.h"
+//#import "UseView.h"
 @interface ViewController ()
 
 
@@ -18,11 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.view.backgroundColor = [UIColor whiteColor];
-
-    UseView *v = [UseView new];
-    [v log];
+//    
+//    self.view.backgroundColor = [UIColor whiteColor];
+//
+//    UseView *v = [UseView new];
+//    [v log];
     
 }
 
